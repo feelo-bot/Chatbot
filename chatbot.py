@@ -2,7 +2,7 @@ import openai
 from textblob import TextBlob
 import re
 import os
-# test test test
+# test 
 # 환경 변수에서 OpenAI API 키 설정
 openai.api_key = os.getenv("OPENAI_API_KEY")
 
