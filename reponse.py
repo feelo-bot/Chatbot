@@ -6,9 +6,9 @@ def create_connection():
     try:
         connection = mysql.connector.connect(
             host="localhost",
-            user="your_username",  # 실제 MySQL 사용자 이름으로 변경
-            password="your_password",  # 실제 MySQL 비밀번호로 변경
-            database="my_database"  # 실제 데이터베이스 이름으로 변경
+            user="your_username",  # MySQL 사용자 이름으로 변경
+            password="your_password",  # MySQL 비밀번호로 변경
+            database="my_database"  # 데이터베이스 이름으로 변경
         )
         print("MySQL 서버에 성공적으로 연결되었습니다.")
         return connection
